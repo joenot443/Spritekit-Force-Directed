@@ -26,13 +26,15 @@ plist version="1.0">
 
 Nodes are created and simulated in the ScrollScene.m file. Panning and zooming the SpriteKit scene  is largely based off of the excellent ScrollKit project by bobmoff (https://github.com/bobmoff/ScrollKit). 
 
+The simulation relies on a modified implementation of Hooke's Law and Coulomb's Law to calculate the forces on every node. This is the 'classic' approach to force directed graphs.
+
 The macros SPEED, DAMPING, and MIN_ENERGY can be changed in ScrollScene to adjust portions of the simulation.
 
 The macros REPULSION, RELATED_REPULSION, ATTRACTION, CENTER_REPEL, and CENTER_ATTRACT can be changed in Node to change the behaviour of the Nodes. Adjusting the values is a very fine balancing act, it is generally recommended to leave their default values.
 
 Once a steady state has been reached (sceneEnergy < MIN_ENERGY), the simulation is halted. 
 
-The easiest way to implement this project is to add ScrollScene and Node to your SpriteKit project. Initialize ScrollScene as a SpriteKit scene on a UIViewController, call buildNodes() on ScrollScene and the simulation should begin.
+The easiest way to implement this project is to add ScrollScene, Node, VectorMath and EdgeNode to your SpriteKit project. Initialize ScrollScene as a SpriteKit scene on a UIViewController, call buildNodes() on ScrollScene and the simulation should begin.
 
 ##TODO
 
