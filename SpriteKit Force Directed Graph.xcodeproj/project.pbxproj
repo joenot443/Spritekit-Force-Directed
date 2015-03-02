@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BB02E81AA4CA5000A99E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB02E71AA4CA5000A99E95 /* main.m */; };
+		F4BB02F01AA4CA5000A99E95 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4BB02EF1AA4CA5000A99E95 /* GameScene.sks */; };
+		F4BB02F61AA4CA5000A99E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BB02F41AA4CA5000A99E95 /* Main.storyboard */; };
+		F4BB02F81AA4CA5000A99E95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BB02F71AA4CA5000A99E95 /* Images.xcassets */; };
+		F4BB02FB1AA4CA5000A99E95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BB02F91AA4CA5000A99E95 /* LaunchScreen.xib */; };
+		F4BB03071AA4CA5000A99E95 /* SpriteKit_Force_Directed_GraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB03061AA4CA5000A99E95 /* SpriteKit_Force_Directed_GraphTests.m */; };
+		F4BB031E1AA4CAE900A99E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB03111AA4CAE900A99E95 /* AppDelegate.m */; };
+		F4BB03201AA4CAE900A99E95 /* EdgeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB03141AA4CAE900A99E95 /* EdgeNode.m */; };
+		F4BB03211AA4CAE900A99E95 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB03161AA4CAE900A99E95 /* MainViewController.m */; };
+		F4BB03221AA4CAE900A99E95 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB03181AA4CAE900A99E95 /* Node.m */; };
+		F4BB03231AA4CAE900A99E95 /* NodeData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4BB03191AA4CAE900A99E95 /* NodeData.plist */; };
+		F4BB03241AA4CAE900A99E95 /* ScrollScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB031B1AA4CAE900A99E95 /* ScrollScene.m */; };
+		F4BB03251AA4CAE900A99E95 /* VectorMath.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB031D1AA4CAE900A99E95 /* VectorMath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4BB03011AA4CA5000A99E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BB02DA1AA4CA5000A99E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BB02E11AA4CA5000A99E95;
+			remoteInfo = "SpriteKit Force Directed Graph";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4BB02E21AA4CA5000A99E95 /* SpriteKit Force Directed Graph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit Force Directed Graph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BB02E61AA4CA5000A99E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BB02E71AA4CA5000A99E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4BB02EF1AA4CA5000A99E95 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F4BB02F51AA4CA5000A99E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4BB02F71AA4CA5000A99E95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4BB02FA1AA4CA5000A99E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4BB03001AA4CA5000A99E95 /* SpriteKit Force Directed GraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpriteKit Force Directed GraphTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BB03051AA4CA5000A99E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BB03061AA4CA5000A99E95 /* SpriteKit_Force_Directed_GraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKit_Force_Directed_GraphTests.m; sourceTree = "<group>"; };
+		F4BB03101AA4CAE900A99E95 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4BB03111AA4CAE900A99E95 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4BB03131AA4CAE900A99E95 /* EdgeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeNode.h; sourceTree = "<group>"; };
+		F4BB03141AA4CAE900A99E95 /* EdgeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeNode.m; sourceTree = "<group>"; };
+		F4BB03151AA4CAE900A99E95 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F4BB03161AA4CAE900A99E95 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F4BB03171AA4CAE900A99E95 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		F4BB03181AA4CAE900A99E95 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		F4BB03191AA4CAE900A99E95 /* NodeData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NodeData.plist; sourceTree = "<group>"; };
+		F4BB031A1AA4CAE900A99E95 /* ScrollScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollScene.h; sourceTree = "<group>"; };
+		F4BB031B1AA4CAE900A99E95 /* ScrollScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollScene.m; sourceTree = "<group>"; };
+		F4BB031C1AA4CAE900A99E95 /* VectorMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorMath.h; sourceTree = "<group>"; };
+		F4BB031D1AA4CAE900A99E95 /* VectorMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorMath.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BB02DF1AA4CA5000A99E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB02FD1AA4CA5000A99E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BB02D91AA4CA5000A99E95 = {
+			isa = PBXGroup;
+			children = (
+				F4BB02E41AA4CA5000A99E95 /* SpriteKit Force Directed Graph */,
+				F4BB03031AA4CA5000A99E95 /* SpriteKit Force Directed GraphTests */,
+				F4BB02E31AA4CA5000A99E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BB02E31AA4CA5000A99E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB02E21AA4CA5000A99E95 /* SpriteKit Force Directed Graph.app */,
+				F4BB03001AA4CA5000A99E95 /* SpriteKit Force Directed GraphTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BB02E41AA4CA5000A99E95 /* SpriteKit Force Directed Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB03101AA4CAE900A99E95 /* AppDelegate.h */,
+				F4BB03111AA4CAE900A99E95 /* AppDelegate.m */,
+				F4BB03131AA4CAE900A99E95 /* EdgeNode.h */,
+				F4BB03141AA4CAE900A99E95 /* EdgeNode.m */,
+				F4BB03151AA4CAE900A99E95 /* MainViewController.h */,
+				F4BB03161AA4CAE900A99E95 /* MainViewController.m */,
+				F4BB03171AA4CAE900A99E95 /* Node.h */,
+				F4BB03181AA4CAE900A99E95 /* Node.m */,
+				F4BB03191AA4CAE900A99E95 /* NodeData.plist */,
+				F4BB031A1AA4CAE900A99E95 /* ScrollScene.h */,
+				F4BB031B1AA4CAE900A99E95 /* ScrollScene.m */,
+				F4BB031C1AA4CAE900A99E95 /* VectorMath.h */,
+				F4BB031D1AA4CAE900A99E95 /* VectorMath.m */,
+				F4BB02EF1AA4CA5000A99E95 /* GameScene.sks */,
+				F4BB02F41AA4CA5000A99E95 /* Main.storyboard */,
+				F4BB02F71AA4CA5000A99E95 /* Images.xcassets */,
+				F4BB02F91AA4CA5000A99E95 /* LaunchScreen.xib */,
+				F4BB02E51AA4CA5000A99E95 /* Supporting Files */,
+			);
+			path = "SpriteKit Force Directed Graph";
+			sourceTree = "<group>";
+		};
+		F4BB02E51AA4CA5000A99E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB02E61AA4CA5000A99E95 /* Info.plist */,
+				F4BB02E71AA4CA5000A99E95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4BB03031AA4CA5000A99E95 /* SpriteKit Force Directed GraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB03061AA4CA5000A99E95 /* SpriteKit_Force_Directed_GraphTests.m */,
+				F4BB03041AA4CA5000A99E95 /* Supporting Files */,
+			);
+			path = "SpriteKit Force Directed GraphTests";
+			sourceTree = "<group>";
+		};
+		F4BB03041AA4CA5000A99E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB03051AA4CA5000A99E95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BB02E11AA4CA5000A99E95 /* SpriteKit Force Directed Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BB030A1AA4CA5000A99E95 /* Build configuration list for PBXNativeTarget "SpriteKit Force Directed Graph" */;
+			buildPhases = (
+				F4BB02DE1AA4CA5000A99E95 /* Sources */,
+				F4BB02DF1AA4CA5000A99E95 /* Frameworks */,
+				F4BB02E01AA4CA5000A99E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpriteKit Force Directed Graph";
+			productName = "SpriteKit Force Directed Graph";
+			productReference = F4BB02E21AA4CA5000A99E95 /* SpriteKit Force Directed Graph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4BB02FF1AA4CA5000A99E95 /* SpriteKit Force Directed GraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BB030D1AA4CA5000A99E95 /* Build configuration list for PBXNativeTarget "SpriteKit Force Directed GraphTests" */;
+			buildPhases = (
+				F4BB02FC1AA4CA5000A99E95 /* Sources */,
+				F4BB02FD1AA4CA5000A99E95 /* Frameworks */,
+				F4BB02FE1AA4CA5000A99E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BB03021AA4CA5000A99E95 /* PBXTargetDependency */,
+			);
+			name = "SpriteKit Force Directed GraphTests";
+			productName = "SpriteKit Force Directed GraphTests";
+			productReference = F4BB03001AA4CA5000A99E95 /* SpriteKit Force Directed GraphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BB02DA1AA4CA5000A99E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Joe Crozier Software";
+				TargetAttributes = {
+					F4BB02E11AA4CA5000A99E95 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F4BB02FF1AA4CA5000A99E95 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F4BB02E11AA4CA5000A99E95;
+					};
+				};
+			};
+			buildConfigurationList = F4BB02DD1AA4CA5000A99E95 /* Build configuration list for PBXProject "SpriteKit Force Directed Graph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BB02D91AA4CA5000A99E95;
+			productRefGroup = F4BB02E31AA4CA5000A99E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BB02E11AA4CA5000A99E95 /* SpriteKit Force Directed Graph */,
+				F4BB02FF1AA4CA5000A99E95 /* SpriteKit Force Directed GraphTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BB02E01AA4CA5000A99E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BB02FB1AA4CA5000A99E95 /* LaunchScreen.xib in Resources */,
+				F4BB02F81AA4CA5000A99E95 /* Images.xcassets in Resources */,
+				F4BB02F01AA4CA5000A99E95 /* GameScene.sks in Resources */,
+				F4BB03231AA4CAE900A99E95 /* NodeData.plist in Resources */,
+				F4BB02F61AA4CA5000A99E95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB02FE1AA4CA5000A99E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BB02DE1AA4CA5000A99E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BB03221AA4CAE900A99E95 /* Node.m in Sources */,
+				F4BB031E1AA4CAE900A99E95 /* AppDelegate.m in Sources */,
+				F4BB03201AA4CAE900A99E95 /* EdgeNode.m in Sources */,
+				F4BB02E81AA4CA5000A99E95 /* main.m in Sources */,
+				F4BB03211AA4CAE900A99E95 /* MainViewController.m in Sources */,
+				F4BB03241AA4CAE900A99E95 /* ScrollScene.m in Sources */,
+				F4BB03251AA4CAE900A99E95 /* VectorMath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB02FC1AA4CA5000A99E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BB03071AA4CA5000A99E95 /* SpriteKit_Force_Directed_GraphTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BB03021AA4CA5000A99E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BB02E11AA4CA5000A99E95 /* SpriteKit Force Directed Graph */;
+			targetProxy = F4BB03011AA4CA5000A99E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4BB02F41AA4CA5000A99E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BB02F51AA4CA5000A99E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4BB02F91AA4CA5000A99E95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BB02FA1AA4CA5000A99E95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4BB03081AA4CA5000A99E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4BB03091AA4CA5000A99E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BB030B1AA4CA5000A99E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SpriteKit Force Directed Graph/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4BB030C1AA4CA5000A99E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SpriteKit Force Directed Graph/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4BB030E1AA4CA5000A99E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpriteKit Force Directed GraphTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKit Force Directed Graph.app/SpriteKit Force Directed Graph";
+			};
+			name = Debug;
+		};
+		F4BB030F1AA4CA5000A99E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpriteKit Force Directed GraphTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKit Force Directed Graph.app/SpriteKit Force Directed Graph";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BB02DD1AA4CA5000A99E95 /* Build configuration list for PBXProject "SpriteKit Force Directed Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BB03081AA4CA5000A99E95 /* Debug */,
+				F4BB03091AA4CA5000A99E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BB030A1AA4CA5000A99E95 /* Build configuration list for PBXNativeTarget "SpriteKit Force Directed Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BB030B1AA4CA5000A99E95 /* Debug */,
+				F4BB030C1AA4CA5000A99E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4BB030D1AA4CA5000A99E95 /* Build configuration list for PBXNativeTarget "SpriteKit Force Directed GraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BB030E1AA4CA5000A99E95 /* Debug */,
+				F4BB030F1AA4CA5000A99E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BB02DA1AA4CA5000A99E95 /* Project object */;
+}
