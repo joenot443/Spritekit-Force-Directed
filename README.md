@@ -36,17 +36,13 @@ Once a steady state has been reached (sceneEnergy < MIN_ENERGY), the simulation 
 
 The easiest way to implement this project is to add ScrollScene, Node, VectorMath and EdgeNode to your SpriteKit project. Initialize ScrollScene as a SpriteKit scene on a UIViewController, call buildNodes() on ScrollScene and the simulation should begin.
 
-##TODO
-
-Rewrite the node simulation algorithm. The present algorithm works very well for simulations below 50 nodes, but past this, the simulation slows considerably. The eventual plan is to implement the Barnes-Hut simulation algorithm. This would allow the simulation to run in O(n log n) time as opposed to the usual O(n^2). 
-
 ## Example
 
 This is the included example using a set of 6 nodes:
 
 ![alt text](http://i.imgur.com/adl9inD.png?1 "6 Node Example")
 
-##License
+## License
 
 License
 The MIT License (MIT)
